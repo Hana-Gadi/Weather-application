@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <!----------- navbar Section --------->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light nav">
+      <div class="container bg-success">
+        <a class="navbar-brand text-white fw-bold bg-warning" href="#">
+          <img src="./images/logo@2x.png" alt="" class="w-25">
+          Weather
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse bg-danger" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-success">
+            <li class="nav-item">
+              <a class="nav-link active text-primary border border-primary rounded-4 px-3 " aria-current="page"
+                href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">News</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Live cameras</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Photos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </section>
+
+  <!----------- Header Section --------->
+  <header class="header vh-100 position-relative">
+    <figure class="bg-image">
+      <div class="container position-relative top-50">
+        <form>
+          <div class="mb-3 d-flex mb-5">
+          <div class="position-relative w-100">
+            <input type="search" class="form-control rounded-5 py-2 bg-input" id="searchInput"
+              placeholder="Find Your Location...">
+            <button type="button" id="findBtn" class="btn btn-primary rounded-5 px-4 position-absolute top-0 end-0">Find</button>
+          </div>
+        </div>
+      </form>
+      
+
+      <div class="raw d-flex" id="rawData">
+    
+      </div>
+    </div>
+
+    </figure>
+  </header>
+
+  <!----------- Footer Section --------->
+  <footer class="p-5">
+    <div class="container">
+      <div class="d-flex justify-content-between">
+        <form class="w-75">
+          <div class="mb-3 w-80">
+            <div class="position-relative w-100">
+              <input type="text" class="form-control rounded-5 py-2 bg-input" id="locationInput"
+                placeholder="Find Your Location...">
+              <button type="button" class="btn btn-primary rounded-5 px-4 position-absolute top-0 end-0">Find</button>
+            </div>
+          </div>
+        </form>
+
+        <div class="w-20">
+          <i class="fa-brands fa-facebook-f text-primary p-3 rounded-circle"></i>
+          <i class="fa-brands fa-twitter text-primary p-3 rounded-circle"></i>
+          <i class="fa-brands fa-google-plus-g text-primary p-3 rounded-circle"></i>
+          <i class="fa-brands fa-instagram text-primary p-3 rounded-circle"></i>
+        </div>
+      </div>
+
+      <h6>Copyright 2014 Company name. Designed by Themezy. All rights reserved</h6>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+:root{
+    --bg-nav:#1E202B;
+    --bg-card:#323544;
+    --bg-footer:#262936;
+    --txt-gray:#B6B7B7;
+}
+
+.txtColor{
+    color: var(--txt-gray);
+}
+
+.footerGround{
+    background-color: var(--bg-footer);
+}
+.navGround{
+    background-color:var(--bg-nav)
+}
+
+
+.nav{
+    background-color: var(--bg-nav);
+}
+
+/* ---------------------- header Section ----------------------------- */
+.header{
+    background-color: var(--bg-nav);
+}
+
+.header .bg-image{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50%;
+}
+
+figure{
+    padding-bottom: 50px;
+}
+
+[placeholder]{
+    color:darkgrey;
+}
+
+.card-title{
+    background-color:var(--bg-footer);
+}
+
+/* ---------------------- Footer Section ----------------------------- */
+footer{
+    background-color: var(--bg-footer);
+}
+.bg-input{
+    background-color: var(--bg-nav);
+
+}
+
+footer i{
+    background-color: var(--bg-nav);
+}
+
+h6{
+    color:var(--txt-gray);
+}
